@@ -17,11 +17,11 @@ console.log("La tua email è:", userEmail);
 // Controlliamo che la mail inserita sia tra quelle che può accedere
 for (let i = 0; i <= subscribers.length; i++) {
     console.log(subscribers[i]);
+    // Stampiamo un messaggio dell'esito del controllo
+    if (subscribers[i] === userEmail) {
+        document.getElementById("message").innerHTML = positiveAccess;
+    } else {
+        document.getElementById("message").innerHTML = negativeAccess;
+    }
 }
 
-// Stampiamo un messaggio dell'esito del controllo
-if (userEmail === subscribers[i]) {
-    document.getElementById("message").innerHTML = positiveAccess;
-} else {
-    document.getElementById("message").innerHTML = negativeAccess;
-}
