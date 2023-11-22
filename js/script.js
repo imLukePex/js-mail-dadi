@@ -1,8 +1,8 @@
 // Chiedi all’utente la sua email, controlla che sia nella lista di chi può accedere, stampa un messaggio appropriato sull’esito del controllo.
 
 let positive = "luca.pessione@gmail.com";
-let positiveAccess = "Bentornato Luca!";
-let negativeAccess = "Non sei registrato nei nostri sistemi!";
+let positiveAccess = "Bentornato Luca! E' un piacere rivederti.";
+let negativeAccess = "Qualcosa è andato storto... <br> Non sei registrato nei nostri sistemi!";
 
 // Chiediamo all'utente la sua email
 const userEmail = prompt("Inserisci la tua email!");
