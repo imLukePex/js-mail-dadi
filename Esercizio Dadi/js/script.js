@@ -4,7 +4,7 @@ const randomUser = (Math.floor(Math.random() * 6) + 1);
 console.log("Numero random generato del giocatore:", randomUser);
 
 const randomPc = (Math.floor(Math.random() * 6) + 1);
-console.log("Numero random generato del giocatore:", randomPc);
+console.log("Numero random generato del computer:", randomPc);
 
 let result = "";
 
